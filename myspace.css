@@ -1,0 +1,38 @@
+html{
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+	color: rgb(102,217,239);
+}
+header {
+	text-align: center;
+	color: rgb(253,151,31);
+	background-color: rgb(39,40,34);
+}
+header img{
+	margin-top: 20px;
+}
+header a:hover{
+	background-color: rgb(102,217,239);
+	color: rgb(39,40,34);
+}
+header a{
+	padding: 10px 10px 1px 10px;
+}
+header ul{
+	padding: 10px 0px 1px 0px;
+	background-color: black;
+}
+header li {
+	display: inline-block;
+}
+article {
+	max-width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+}
+body {
+	background-color: rgb(39,40,34);
+	color: white;
+}
