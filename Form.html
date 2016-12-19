@@ -1,15 +1,9 @@
 <!DOCTYPE html>
 <html>
+<title>Contact Me!</title>
 <head>
-	<title>form test</title>
+	<link rel="stylesheet" type="text/css" href="myspace.css">
 	<style type="text/css">
-	h1{
-		font-size: 16pt;
-	}
-	h1:hover{
-		transition: 2s;
-		font-size: 200%;
-	}
 		form{
 			width: 300px;
 			padding: 20px;
@@ -22,31 +16,38 @@
 			padding: 3px;
 			border-color: black;
 		}
-		input[type=button]:hover{
-			border: solid;
-		}
 		input[type=text]:focus{
 			background-color: rgb(174,129,255);
-			color: limegreen;
 		}
 	</style>
 </head>
+<header>
+	<img src="icon.png" width="100" height="100" >
+	<h1 id="biotitle">
+		Brian Carela's Biography Site
+	</h1>
+<center><ul>
+	<li>Index </li>
+	<li><a href="Aboutme.html">About Me </a></li>
+	<li><a href="Location.html">Location </a></li>
+	<li><a href="Resume.html">Resume</a></li>
+</ul></center>
+</header>
 <body>
-<h1>Hover Me!</h1>
 	<form>
-		<h2>Sign up for weekly tournament</h2>
+		<h2>Contact Me!</h2>
 		Full name: <br>
 		<input type="text" name="fullname" placeholder="First and Last"> <br>
+		Email Address: <br>
+		<input type="text" name="email"> <br>
 		Gamer tag: <br>
 		<input type="text" name="gamertag" placeholder="With sponsor/crew"> <br>
 		Phone number: <br>
-		<input type="text" name="phonenumber" placeholder="For Match Calling"> <br>
-		Does game sound matter to you? <br>
-		<input type="radio" name="sound" value="yes">
-				Yes <br>
-		<input type="radio" name="sound" value="no">
-				No <br>
+		<input type="text" name="phonenumber" placeholder="Optional"> <br>
 		<input type="button" name="submit" value="submit">
 	</form>
 </body>
+<footer>
+	<a href="Form.html" id="contact">Contact Me!</a>
+</footer>
 </html>
